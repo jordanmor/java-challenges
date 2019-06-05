@@ -17,6 +17,13 @@ public class Main {
 		MegaBytesConverter.printMegaBytesAndKiloBytes(2500); // 2500 KB = 2 MB and 452 KB
 		MegaBytesConverter.printMegaBytesAndKiloBytes(-1024); // Invalid Value
 		MegaBytesConverter.printMegaBytesAndKiloBytes(5000); // 5000 KB = 4 MB and 904 KB
+		
+		// Barking Dog Tests
+		System.out.println("Barking Dog Tests: ");
+		System.out.println(BarkingDog.shouldWakeUp(true, 1)); // true
+		System.out.println(BarkingDog.shouldWakeUp (false, 2)); //false
+		System.out.println(BarkingDog.shouldWakeUp (true, 8)); //false
+		System.out.println(BarkingDog.shouldWakeUp (true, -1)); //false
 	}
 
 }
