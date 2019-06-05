@@ -24,6 +24,15 @@ public class Main {
 		System.out.println(BarkingDog.shouldWakeUp (false, 2)); //false
 		System.out.println(BarkingDog.shouldWakeUp (true, 8)); //false
 		System.out.println(BarkingDog.shouldWakeUp (true, -1)); //false
+		
+		// Leap Year Calculator
+		System.out.println("Leap Year Calculator Tests: ");
+		System.out.println(LeapYear.isLeapYear(-1600)); // false
+		System.out.println(LeapYear.isLeapYear(1600)); // true
+		System.out.println(LeapYear.isLeapYear(2017)); // false
+		System.out.println(LeapYear.isLeapYear(2000)); // true
+		System.out.println(LeapYear.isLeapYear(1924)); // true
+
 	}
 
 }
