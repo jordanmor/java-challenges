@@ -32,7 +32,13 @@ public class Main {
 		System.out.println(LeapYear.isLeapYear(2017)); // false
 		System.out.println(LeapYear.isLeapYear(2000)); // true
 		System.out.println(LeapYear.isLeapYear(1924)); // true
-
+		
+		// Decimal Comparator
+		System.out.println("Decimal Comparator Tests: ");
+		System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(-3.1756, -3.175)); // true
+		System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(3.175, 3.176)); // false
+		System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(3.0, 3.0)); // true
+		System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(-3.123, 3.123)); // false
 	}
 
 }
