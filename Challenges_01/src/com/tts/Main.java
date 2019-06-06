@@ -39,6 +39,12 @@ public class Main {
 		System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(3.175, 3.176)); // false
 		System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(3.0, 3.0)); // true
 		System.out.println(DecimalComparator.areEqualByThreeDecimalPlaces(-3.123, 3.123)); // false
+		
+		// Equal Sum Checker
+		System.out.println("Equal Sum Checker Tests: ");
+		System.out.println(EqualSumChecker.hasEqualSum(1, 1, 1)); // false
+		System.out.println(EqualSumChecker.hasEqualSum(1, 1, 2)); // true
+		System.out.println(EqualSumChecker.hasEqualSum(1, -1, 0)); // true
 	}
 
 }
