@@ -5,4 +5,5 @@
   - Barking Dog
   - Leap Year Calculator
   - Decimal Comparator
-### Java Challenges_02 - Control Flow Statements
+
+ Moved Java Challenges to repo [coding_challenges](https://github.com/jordanmor/coding_challenges)
